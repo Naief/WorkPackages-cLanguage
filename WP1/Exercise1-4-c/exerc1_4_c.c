@@ -50,7 +50,6 @@ int main(void)
     return 0;
 }
 
-
 /*
 How can I fix the error with the letters? 
 */
