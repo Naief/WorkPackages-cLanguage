@@ -24,7 +24,7 @@ int main()
 {
     srand(time(0)); //Based on a value it starts generating random ones
 
-    for (i = 0; array[i] < MAX; i++)
+    for (i = 0; i < MAX; i++)
     {
         array[i] = rand() % (99 + 1);
     }
