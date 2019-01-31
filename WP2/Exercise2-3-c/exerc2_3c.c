@@ -29,6 +29,7 @@ int main(int argc, char **argv)
         //puts(str1);
         //puts(str2);
 
+        //strcmp is string compare
         printf("Checking if strings are equal using strcmp: \n");
         if (strcmp(str1, str2) == 0)
         {
