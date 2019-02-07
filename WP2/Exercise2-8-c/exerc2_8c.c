@@ -68,14 +68,21 @@ int main()
     }
 
     int computer_choice(int pile) {
-        
-
     }
-    void write_winner(int player) {
 
+    void write_winner(int player)
+    {
+        if (HUMAN)
+        {
+            fprintf(stdout, "The winner is: Human! \n");
+        }
+        if (COMPUTER)
+        {
+            fprintf(stdout, "The winner is: Computer! \n");
+        }
     }
-    int play_again() {
-
+    int play_again()
+    {
     }
     int toggle(int player) {
         
