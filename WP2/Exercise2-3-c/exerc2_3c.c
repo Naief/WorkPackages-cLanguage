@@ -58,13 +58,10 @@ int main(int argc, char **argv)
 int comparison(char *string1, char *string2)
 {
     int result = 0;
-    printf("%d\n", size1);
-    printf("%d\n", size2);
     int i = 0;
 
     while (*string1 != '\0')
     {
-        printf("%d\n", i);
         if (*string1 != *string2)
         {
             result = 1;
