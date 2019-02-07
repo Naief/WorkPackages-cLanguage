@@ -21,10 +21,12 @@ Demonstration code: [<Ass code 1-4> <abc>]
 
 int main(int argc, char *argv[])
 {
+    //declaring some arrays
     char str[MAX_CHAR];
     char strCopy[MAX_CHAR];
 
-    if(argc == 2)
+    //making sure two arguments are inputed
+    if (argc == 2)
     {
         printf("Reading string from file..\n");
         scanf("%s", &str);
@@ -35,6 +37,7 @@ int main(int argc, char *argv[])
     }
     else
     {
+        //input
         printf("Give me a string to copy(max 20 characters)\n");
         fgets(str, MAX_CHAR, stdin);
     }
@@ -45,11 +48,12 @@ int main(int argc, char *argv[])
     printf("String copied using our own method: %s\n", strCopy);
 }
 
-void copyString(char* src, char* dest)
+//method that copies the inputed string
+void copyString(char *src, char *dest)
 {
     //memset(strCopied, '\0', sizeof(strCopied));
 
-    for(int i = 0; i < sizeof(src); i++)
+    for (int i = 0; i < sizeof(src); i++)
     {
         dest[i] = src[i];
     }
