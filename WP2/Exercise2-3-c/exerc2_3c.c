@@ -74,7 +74,7 @@ int comparison(char *string1, char *string2)
         *string2++;
         i++;
     }
-    /*checks if 1 string is not done before the other one*/
+
     if (!(*string1 == '\0' && *string2 == '\0'))
     {
         result = 1;
