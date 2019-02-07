@@ -8,7 +8,7 @@ Filip Fatic
 Naief Jobsen
 Member not present at demonstration time:
 Yyyyyy yyyy
-Demonstration code: [<Ass code 1-4> <abc>]
+Demonstration code: [7527]
 ====================================== */
 #include <stdio.h>
 #include "time.h"

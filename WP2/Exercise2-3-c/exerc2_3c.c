@@ -8,7 +8,7 @@ Naief Jobsen
 David Lindgren
 Member not present at demonstration time:
 Yyyyyy yyyy
-Demonstration code: [<Ass code 1-4> <abc>]
+Demonstration code: [7099]
 ====================================== */
 
 #include <stdio.h>

@@ -6,9 +6,7 @@ Members that contribute to the solutions
 Filip Fatic
 Naief Jobsen
 David Lindgren
-Member not present at demonstration time:
-Yyyyyy yyyy
-Demonstration code: [<Ass code 1-4> <abc>]
+Demonstration code: [7098]
 ====================================== */
 
 #include<stdio.h>
@@ -88,7 +86,7 @@ int main()
 
     srand( time(0) );		/* Setup random */
 
-    printf("V‰lkommen till NIM by ...");
+    printf("Välkommen till NIM by ...");
 
     /*
      *  Program main loop
@@ -126,7 +124,7 @@ int game()
     player = HUMAN;
     while(true)
     {
-        printf("Det ligger %d  mynt i hˆgen\n", pile );
+        printf("Det ligger %d  mynt i högen\n", pile );
 
         if( player == HUMAN )
         {
