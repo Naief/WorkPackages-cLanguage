@@ -38,7 +38,7 @@ int main()
     for (i = 0; i < MAX; i++)
     {
         printf("Current position: %d. \n", i);
-        printf("The integer value: %d and its double value: %d \n", *pointer, *pointer * 2);
+        printf("The integer value: %d and its double value: %d \n", *pointer, *pointer * 2); //print the integer value and its double
         pointer++;
     }
     return 0;

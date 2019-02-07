@@ -57,11 +57,14 @@ int main(int argc, char **argv)
 
 int comparison(char *string1, char *string2)
 {
+    /*declare variables*/
     int result = 0;
     int i = 0;
 
+    /*loop that checks if the pointer is not pointing at NULL*/
     while (*string1 != '\0')
     {
+        /*checks if character at i is not equal to the other character in the string, otherwise, increment*/
         if (*string1 != *string2)
         {
             result = 1;
@@ -71,6 +74,7 @@ int comparison(char *string1, char *string2)
         *string2++;
         i++;
     }
+    /*checks if 1 string is not done before the other one*/
     if (!(*string1 == '\0' && *string2 == '\0'))
     {
         result = 1;
