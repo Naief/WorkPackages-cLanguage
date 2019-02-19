@@ -7,6 +7,8 @@ Filip Fatic
 Naief Jobsen
 David Lindgren
 Demonstration code: [gib me code]
+
+//Solution has been done in collaboration with group 13 (Araz and Matt)
 ====================================== */
 
 #include <stdio.h>
