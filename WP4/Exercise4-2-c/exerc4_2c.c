@@ -6,7 +6,7 @@ Members that contribute to the solutions
 Filip Fatic
 Naief Jobsen
 David Lindgren
-Demonstration code: [gib me code]
+Demonstration code: [26252]
 
 //Solution has been done in collaboration with group 13 (Araz and Matt)
 ====================================== */
@@ -101,6 +101,14 @@ int decode(int n)
     int engine = n & bitMask;
 
     // 3 bits for gear 
+
+    /*
+    bitMask is empty initially. 
+    Number 1 gets shifted to the 
+    left 3 times and becomes --> 00000100. 
+    1 gets subtracted from the bitmask and 
+    becomes --> 0000 
+    */
     bitMask = (1 << 3) - 1;
     int gear = (n >> 2) & bitMask;
 
