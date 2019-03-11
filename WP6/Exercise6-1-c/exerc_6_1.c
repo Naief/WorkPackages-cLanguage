@@ -1,6 +1,14 @@
-// Program for exercise 6.2alt in DIT165
-// Version 2017-12-31
-// **************************************
+/* ====================================
+File name: exerc_6_1.c
+Date: 2019-03-09
+Group nr 04
+Members that contribute to the solutions
+Filip Fatic
+Naief Jobsen
+David Lindgren
+Demonstration code: <CODE>
+====================================== */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
