@@ -36,15 +36,14 @@ int main()
     scanf("%d", &max_value);
 
     pthread_create(&tid, &attr, runner, NULL); //create a new thread with tid as an id and attr as an attribute and starts at method runner.
-    pthread_create(&sort, &attr3, sortArray, NULL);
-    pthread_create(&find, &attr2, search, NULL);
-
-    pthread_join(tid, NULL);
     printf("Array is filled with numbers \n");
-    pthread_join(sort, NULL);
+    pthread_join(tid, NULL);
     printf("SORTING ... \n");
-    pthread_join(find, NULL);
+    pthread_create(&sort, &attr3, sortArray, NULL);
+    pthread_join(sort, NULL);
     printf("SEARCHING ... \n");
+    pthread_create(&find, &attr2, search, NULL);
+    pthread_join(find, NULL);
 }
 
 void *sortArray(void *param)
@@ -89,7 +88,7 @@ void *search(void *param)
 
         else if (array[middle] == search)
         {
-            printf("%d found at location %d.\n", search, middle + 1);
+            printf("%d \n found at location %d.\n", search, middle + 1);
             break;
         }
         else
