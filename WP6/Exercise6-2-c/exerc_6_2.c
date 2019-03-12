@@ -6,7 +6,7 @@ Members that contribute to the solutions
 Filip Fatic
 Naief Jobsen
 David Lindgren
-Demonstration code: <CODE>
+Demonstration code: [7118]
 ====================================== */
 
 #include <stdio.h>
@@ -41,7 +41,7 @@ int main()
     printf("SORTING ... \n");
     pthread_create(&sort, &attr3, sortArray, NULL);
     pthread_join(sort, NULL);
-    printf("SEARCHING ... \n");
+    printf("SE4ARCHING ... \n");
     pthread_create(&find, &attr2, search, NULL);
     pthread_join(find, NULL);
 }

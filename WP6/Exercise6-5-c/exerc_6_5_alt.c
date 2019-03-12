@@ -6,7 +6,7 @@ Members that contribute to the solutions
 Filip Fatic
 Naief Jobsen
 David Lindgren
-Demonstration code: <code here>
+Demonstration code: 7046
 ====================================== */
 
 #include <stdio.h>
@@ -64,7 +64,7 @@ void *put()
     printf("Start");
     while (1)
     {
-        if (currentChar == maxChar)
+        if (currentChar > maxChar)
         {
             currentChar = minChar;
         }
